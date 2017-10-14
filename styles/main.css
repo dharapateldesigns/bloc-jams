@@ -66,6 +66,9 @@ html {
 }
  }
 
+ .links-container .navbar-link:active{
+   background-color: white;
+ }
 
  .hero-content {
      position: relative; /* positioning will be explained in a resource */
