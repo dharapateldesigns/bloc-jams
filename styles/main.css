@@ -158,3 +158,11 @@ The site JS Bin is not working but this is how I would write the media queries f
     color: red;
   }
 }
+
++.clearfix::after {
+ +   content: ".";
+ +   visibility: hidden;
+ +   display: block;
+ +   height: 0;
+ +   clear: both;
+ +}
