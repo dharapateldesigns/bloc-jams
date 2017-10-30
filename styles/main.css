@@ -166,3 +166,7 @@ The site JS Bin is not working but this is how I would write the media queries f
  +   height: 0;
  +   clear: both;
  +}
+
+ .container.narrow {
+      max-width: 56rem;
+  }
