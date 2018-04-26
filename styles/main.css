@@ -129,6 +129,10 @@ html {
      max-width: 64rem;
  }
 
+ .container.narrow {
+     max-width: 56rem;
+ }
+
  /* Medium and small screens (640px) */
  @media (min-width: 640px) {
     html { font-size: 112%; }
@@ -171,3 +175,5 @@ The site JS Bin is not working but this is how I would write the media queries f
  +   height: 0;
  +   clear: both;
  +}
+
+
