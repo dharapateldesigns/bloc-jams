@@ -58,7 +58,6 @@ body.album {
  .song-item-duration {
      width: 5%;
  }
- 
  @media (max-width: 640px) and (min-width: 320px) {
      .album-view-details {
          text-align: center;
@@ -79,4 +78,29 @@ body.album {
      }
  }
 
-  
+  body {
+    font-family: Helvetica, sans-serif;
+}
+
+.album-view-song-list {
+    width: 90%;
+    margin: 1.5rem auto;
+    font-weight: 300;
+    font-size: 1em;
+}
+
+.album-view-song-item {
+    height: 3rem;
+}
+
+.song-item-number {
+    width: 5%;
+}
+
+.song-item-title {
+    width: 85%;
+}
+
+.song-item-duration {
+    width: 5%;
+}
