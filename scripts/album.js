@@ -40,7 +40,7 @@
      songs: [
          { title: 'Radio', duration: '1:01' },
          { title: 'Blue Jeans', duration: '5:01' },
-         { title: 'Born to Die', duration: '3:21'},
+         { title: 'Carmen', duration: '3:21'},
          { title: 'National Anthem', duration: '3:14' },
          { title: 'Off to the Races', duration: '2:15'}
      ]
