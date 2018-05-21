@@ -110,7 +110,7 @@
      $albumImage.attr('src', album.albumArtUrl);
  
      // #3
-     $albumSongList.empty();
+      $albumSongList.empty();
  
      // #4
      for (var i = 0; i < album.songs.length; i++) {
@@ -120,6 +120,7 @@
  };
 
 
+<<<<<<< HEAD
 
 
 <<<<<<< HEAD
@@ -127,6 +128,8 @@
 
 
 
+=======
+>>>>>>> jquery-play-pause
 var clickHandler = function(targetElement) {
 
     var songItem = getSongItem(targetElement);  
