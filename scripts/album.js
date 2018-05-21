@@ -71,7 +71,7 @@
      $albumImage.attr('src', album.albumArtUrl);
  
      // #3
-     $albumSongList.empty();
+      $albumSongList.empty();
  
      // #4
      for (var i = 0; i < album.songs.length; i++) {
@@ -79,11 +79,6 @@
          $albumSongList.append($newRow);
      }
  };
-
-
-
-
-
 
 
 var clickHandler = function(targetElement) {
