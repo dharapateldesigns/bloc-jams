@@ -166,6 +166,7 @@ var updateSeekBarWhileSongPlays = function() {
         });
     }
 };
+
 var updateSeekPercentage = function($seekBar, seekBarFillRatio) {
     var offsetXPercent = seekBarFillRatio * 100;
 
